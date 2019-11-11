@@ -30,3 +30,7 @@
     } 
 
  }
+
+ function limpar() {
+     document.getElementById('status').src='imc.png'
+ }
