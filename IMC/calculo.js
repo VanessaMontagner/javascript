@@ -26,7 +26,7 @@
     } else if (calculo1 >35 && calculo1 <39.99){
         document.getElementById("status").src='imc6.png'
     } else if (calculo1 >40){
-        document.getElementById("status").src='imc6.png'
+        document.getElementById("status").src='imc7.png'
     } 
 
  }
