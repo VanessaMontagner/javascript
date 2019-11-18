@@ -8,8 +8,6 @@ let total, desconto, total1, pago, troco
 function calcular() {
     total = Number (pdv.valor.value.replace(',','.'));
     desconto = Number (pdv.porcentagem.value.replace(',','.'))
-    console.log(total)
-    console.log(desconto)
     total1 =  (total * desconto ) / 100
     total2 = total - total1
     pdv.total.value=total2.toFixed(2)
