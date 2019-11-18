@@ -6,8 +6,8 @@
 let n1, n2, resultado 
 
  function calcular(){
-     n1= Number (frmRegra3.txtX.value.replace(','),('.'))
-     n2= Number (frmRegra3.txtY.value.replace(','),('.'))
+     n1= Number (frmRegra3.txtX.value.replace(',','.'))
+     n2= Number (frmRegra3.txtY.value.replace(',','.'))
 
      
 
