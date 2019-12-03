@@ -12,7 +12,7 @@ header{ max-width: 1112px;
 }
 
 .Logo{
-    display: inline-block;
+    float: left;;
     height: 96px;
     padding: 15px;
 }
@@ -22,7 +22,13 @@ header{ max-width: 1112px;
 }
 
 .Hamburguer{
-    display: none;
+    background-color: #828282;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0px 8px 0px 8px;
+    color: #fff;
+    border-radius: 5px;
+   display: none; 
 }
 
 .Menu{
@@ -104,4 +110,41 @@ header{ max-width: 1112px;
         bottom: 15px;
     }
 
-    
+    /******* tratamento responsivo *************/
+
+    @media (max-width: 480px){
+        header{
+            height: 88px;}
+        .Logo{
+            height: 64px;
+            padding: 12px;
+        }
+        .Hamburguer{
+            display: block;
+            float: right;
+            margin: 22px;
+        }
+        .Menu{
+            float: left;
+            width: 100%;
+            padding: 0;
+        }
+
+        .Menu ul{
+            background-color: #fff;
+            display: none; /* jquery*/
+        }
+
+        .Menu ul li{
+            float: none;
+        }
+
+        .Menu ul li a{
+            padding: 15px;
+            display: block;
+        }
+        
+        .Destaque li{
+            float: none;
+        }
+    }
